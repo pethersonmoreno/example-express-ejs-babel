@@ -1,5 +1,6 @@
-var express = require("express");
-const { convert } = require("../util/convert");
+import express from "express";
+import { convert } from "../util/convert";
+
 var router = express.Router();
 
 /* GET home page. */

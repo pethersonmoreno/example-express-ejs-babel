@@ -7,8 +7,8 @@ var usersRouter = require("./routes/users");
 var app = express();
 
 // view engine setup
-app.set("views", path.join(__dirname, "views"));
-app.set("public", path.join(__dirname, "public"));
+app.set("views", path.join(__dirname, "../views"));
+app.set("public", path.join(__dirname, "../public"));
 app.set("view engine", "ejs");
 
 app.use(express.json());
