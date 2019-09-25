@@ -3,6 +3,6 @@ const { convert } = require("./convert");
 
 describe("Convert", () => {
     test("should return values multiply with success", () => {
-        expect(convert.convert(4, 4)).toBe(16);
+        expect(convert(4, 4)).toBe(16);
     });
 });
