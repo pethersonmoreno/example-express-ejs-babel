@@ -1,7 +1,7 @@
-const convert = (cotacao, quantidade) => {
+export const convert = (cotacao, quantidade) => {
     return cotacao * quantidade;
 };
 
-module.exports = {
+export default {
     convert
 };
